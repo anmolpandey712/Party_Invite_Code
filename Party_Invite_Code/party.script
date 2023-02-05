@@ -1,0 +1,7 @@
+var guestLists =["Angela","Jack","Pam","James","Lara","Jason"];
+var name=prompt("Enter your name: ");
+if(guestLists.includes(name)){;
+alert("Welcome to the party!!!!");}
+else{
+alert("Better luck next time.........");
+}
